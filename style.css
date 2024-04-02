@@ -1,0 +1,68 @@
+body {
+    background-color: #000000; /* Fundo totalmente preto */
+    color: #c8a2c8; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #26032B; /* Cor de fundo do cabeçalho */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #ffd55e; /* Cor do texto do cabeçalho */
+}
+
+header img {
+    width: 75px; /* Aumentado */
+    height: auto;
+    margin-right: 15px;
+}
+
+header span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ED1ECE; /* Cor do título */
+}
+
+iframe {
+    margin-top: 20px;
+    border: 5px solid #852099; /* Bordas do vídeo */
+}
+
+.image-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+}
+
+.quantum-center {
+    max-width: 15%; /* Tamanho da imagem central */
+}
+
+.quantum-side {
+    max-width: 10%; /* Tamanho das imagens laterais */
+}
+
+/* Estilos anteriores */
+
+footer {
+    background-color: #26032B; /* Cor de fundo */
+    color: #ffd55e; /* Cor do texto */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
